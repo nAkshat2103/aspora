@@ -1,0 +1,12 @@
+beautifulsoup4
+chromadb
+rank-bm25
+google-generativeai
+python-dotenv
+pypdf
+requests
+sqlite-utils
+streamlit
+torch>=2.1.0
+transformers==4.41.2
+sentence-transformers==2.6.1
