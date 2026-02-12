@@ -101,18 +101,7 @@ python app.py delete <doc_id>
 
 Use the ID shown by `list` when deleting.
 
-## Extensibility
 
-To add support for new formats (e.g. DOCX), register a loader:
-
-```python
-from pipeline.loader_factory import LoaderFactory
-from my_loaders import DOCXLoader
-
-LoaderFactory.register(".docx", DOCXLoader)
-```
-
-Then implement a loader that extends `BaseLoader` and implements `load(file_path) -> str`.
 
 ## Project Structure
 
